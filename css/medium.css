@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    ul {
+        padding-bottom: 40px;
+    }
+
+    header {
+        box-shadow: 2px 2px 50px gray, 0px 0px 50px gray;
+    }
+
+    footer {
+        font-size: 1.25em;
+        box-shadow: 2px 2px 50px gray, 0px 0px 50px gray;;
+    }
+}
