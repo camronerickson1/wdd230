@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spanish Fork Chamber Of Commerce</title>
     <meta name="description" content="Home page for the spanish fork chamber of commerce assignment by Camron Erickson for WDD 230 at Brigham Young University - Idaho.">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
     <header>
-        <img href="images/SFlogo-chamber.png">
+        <img src="images/SFlogo-chamber.png" alt="logo for spanish fork chamber of commerce">
         <h1>Chamber Of Commerce</h1>
         <nav>
-            <ul>
-                <li>
+            <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+            <ul id="main-nav">
+                <li class="active">
                     <a href="index.html">Home</a>
                 </li>
                 <li>
@@ -32,10 +34,10 @@
                     <a href="contact.html">Contact</a>
                 </li>
                 <li>
-                    <img class="social" href="images/facebook.png">
+                    <img class="social" src="images/facebook.png" alt="logo for facebook">
                 </li>
                 <li>
-                    <img class="social" href="images/twitter.png">
+                    <img class="social" src="images/twitter.png" alt="logo for twitter">
                 </li>
             </ul>
         </nav>
