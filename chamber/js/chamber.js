@@ -22,3 +22,11 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburger-btn");
 x.onclick = toggleMenu;
+
+
+const datefield = document.getElementById("currentDate");
+
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(d);
+datefield.innerHTML = `<em>${fulldateUK}</em>`;
