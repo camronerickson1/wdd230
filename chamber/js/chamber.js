@@ -30,3 +30,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(d);
 datefield.innerHTML = `<em>${fulldateUK}</em>`;
+
+if (d.getDay() == 1 || d.getDay() == 2) {
+    document.getElementById("meeting").innerHTML = "&#129309; Come join us for the chamber meet and greet Wednesday at 7:00p.m.";
+}
