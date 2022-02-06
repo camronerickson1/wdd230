@@ -78,6 +78,11 @@
         grid-row: 3/4;
     }
 
+    #join button {
+        font-size: 3vw;
+        height: 15%;
+    }
+
     #news {
         grid-column: 2/3;
         grid-row: 3/4;
