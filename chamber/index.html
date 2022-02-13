@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <img src="images/SFlogo-chamber.png" alt="logo for spanish fork chamber of commerce">
+        <img src="images/SFlogo-chamber.webp" alt="logo for spanish fork chamber of commerce">
         <h1>Chamber Of Commerce</h1>
         <div id="currentDate"></div>
         <nav>
@@ -48,9 +48,16 @@
 
     <main>
         <div id="hero">
-            <img src="images/sf-color-fest.jpg" alt="picture of the festival of colors" id="hero-banner">
+            <picture>
+                <source srcset="images/wdd230-org-small.jpg" media="(max-width: 38.4rem)">
+                <source srcset="images/wdd230-org-medium.jpg" media="(max-width: 63.99rem)">
+                <source srcset="images/wdd230-org-large.jpg" media="(min-width: 64rem">
+                <img src="images/wdd230-org.jpg" alt="sample photo for resizing">
+            </picture>
+            
+            <!-- <img src="images/sf-color-fest.jpg" alt="picture of the festival of colors" id="hero-banner">
             <h2>Welcome to Spanish Fork</h2>
-            <button>Join Chamber</button>
+            <button>Join Chamber</button> -->
         </div>
         <div id="event">
             <h2 class="red-heading">Grand Openings</h2>
@@ -61,7 +68,8 @@
         </div>
         <div id="weather">
             <h2>Weather</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo sint ipsam odio, dolore, adipisci dicta corporis vel tempore sed autem veritatis, laudantium voluptas. Soluta recusandae saepe quidem veniam ullam.</p>
+            <p>Wind Speed: <span id="wind-speed"></span></p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
         </div>
         <div id="news">
             <h2>News Release</h2>
