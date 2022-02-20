@@ -61,7 +61,10 @@
         grid-column: 3/4;
         grid-row: 5/6;
     }
-   
+
+    #discover img:hover {
+        box-shadow: 0px 0px 60px lightgray;
+    }
 
 
 
