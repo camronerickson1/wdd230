@@ -196,11 +196,17 @@ footer div p span {
 }
 
 #discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#discover-gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#discover picture img {
-    max-width: fit-content;
+#discover-gallery div {
+    text-align: center;
 }
