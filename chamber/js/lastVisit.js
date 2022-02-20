@@ -11,4 +11,4 @@ if (lastVisit == 0) {
 
 lastVisit = Date.now();
 
-localStorage.setItem("visite-ls", lastVisit);
+localStorage.setItem("visits-ls", lastVisit);
