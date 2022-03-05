@@ -219,3 +219,21 @@ picture img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+/*-------------FORM-------------*/
+form label {
+    color: #dd1f28;
+    display: block;
+    padding: 1rem;
+}
+
+form div {
+    display: block;
+    padding: 1rem;
+}
+
+form label input {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+}

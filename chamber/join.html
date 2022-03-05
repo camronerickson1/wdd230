@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Spanish Fork</title>
+    <meta name="description"
+        content="Join page for the spanish fork chamber of commerce assignment by Camron Erickson for WDD 230 at Brigham Young University - Idaho.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/SFlogo-chamber.webp" alt="logo for spanish fork chamber of commerce">
+        <h1>Chamber Of Commerce</h1>
+        <div id="currentDate"></div>
+        <nav>
+            <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+            <ul id="main-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="discover.html">Discover</a>
+                </li>
+                <li>
+                    <a href="directory.html">Directory</a>
+                </li>
+                <li class="active">
+                    <a href="join.html">Join</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/SpanishForkCity">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/SpanishForkCity">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="currentdate"></div>
+        <div id="meeting"></div>
+    </header>
+
+    <h2>Join</h2>
+
+    <main>
+        <div>
+        <form method="get" action="thankyou.html">
+            <label>First Name* <input type="text" name="fname" required></label>
+
+            <label>Last Name* <input type="text" name="lname" required></label>
+
+            <label>Job Title <input type="text" name="title"></label>
+
+            <label>Email* <input type="email" name="email" required placeholder="email@example.com"></label>
+
+            <label>Phone* <input type="tel" name="phone" required></label>
+
+            <label>Business Name* <input type="text" name="business" required></label>
+
+            <label>Business Description <input type="text" name="business-description"></label>
+
+            <div class="membership">Membership Level* 
+                <input type="radio" id="np" name="np" value="non-profit">
+                <label for="np">Non-Profit</label>
+
+                <input type="radio" id="bronze" name="bronze" value="bronze">
+                <label for="bronze">Bronze</label>
+
+                <input type="radio" id="silver" name="silver" value="silver">
+                <label for="silver">Silver</label>
+
+                <input type="radio" id="gold" name="gold" value="gold">
+                <label for="gold">Gold</label>
+            </div>
+
+            <input id="formDate" type="hidden" name="date/time" value="date/time">
+
+            <input type="submit" value="Join the Chamber">
+
+        </form></div>
+    </main>
+
+    <footer>
+        <img src="images/SFlogo-chamber.png" alt="logo for spanish fork chamber of commerce">
+        <p>123 Main Street Spanish Fork, UT 84660</p>
+        <p>chamber@sfc.org</p>
+        <a
+            href="https://www.google.com/maps/place/Spanish+Fork,+UT+84660/@40.1114422,-111.6664174,13z/data=!3m1!4b1!4m5!3m4!1s0x874db9d7dc27d89d:0x8b6bd315d9f959d0!8m2!3d40.114955!4d-111.654923">Map</a>
+        <div>
+            <p>&copy; <span id="year"></span> <span>Spanish Fork Chamber</span> <span>Camron Erickson</span> <span>WDD
+                    230 Project</span> <span id="last-mod">Last Modification: <span
+                        id="last-modified"></span></span></p>
+        </div>
+    </footer>
+
+    <script src="js/chamber.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/lastVisit.js"></script>
+</body>
+
+</html>
