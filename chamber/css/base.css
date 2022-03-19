@@ -233,7 +233,17 @@ form div {
 }
 
 form label input {
+    width: 100%;
     display: block;
     font-size: 1rem;
     padding: .75rem;
+    margin-right: .75rem;
+}
+
+.membership {
+    display: flex;
+}
+
+.membership label {
+    display: inline;
 }
