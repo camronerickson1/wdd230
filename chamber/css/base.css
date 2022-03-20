@@ -247,3 +247,15 @@ form label input {
 .membership label {
     display: inline;
 }
+
+#thank-you {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+#thank-you h1 {
+    color: #dd1f28;
+}
