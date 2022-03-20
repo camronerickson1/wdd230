@@ -1,0 +1,100 @@
+{
+    "businesses": [
+        
+        {
+            "name": "Feather Freight",
+            "address": "123 Main Street Spanish Fork, UT 84660",
+            "phone": "801-123-4567",
+            "website": "FeatherFreight.com",
+            "image": "https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png"
+        },
+
+        {
+            "name": "Madison Family Dentistry",
+            "address": "123 E Market Pl Dr Spanish Fork, UT 84660",
+            "phone": "801-234-5678",
+            "website": "MadisonDDS.com",
+            "image": "https://cdn.pixabay.com/photo/2016/09/14/20/50/teeth-1670434_960_720.png"
+        },
+
+        {
+            "name": "Preston Manufacturing",
+            "address": "234 E Market Pl Dr Spanish Fork, UT 84660",
+            "phone": "801-345-6789",
+            "website": "Prestonmanufacturing.com",
+            "image": "https://cdn.pixabay.com/photo/2015/10/16/10/06/tree-990855_960_720.png"
+        },
+
+        {
+            "name": "Ollerton Consulting",
+            "address": "345 E Market Pl Dr Spanish Fork, UT 84660",
+            "phone": "801-567-8901",
+            "website": "Ollertonconsulting.com",
+            "image": "https://cdn.pixabay.com/photo/2016/08/25/07/30/red-1618916_960_720.png"
+        },
+
+        {
+            "name": "Vacation Share",
+            "address": "789 E Market Pl Dr Spanish Fork, UT 84660",
+            "phone": "801-123-5678",
+            "website": "Vacationshare.com",
+            "image": "https://cdn.pixabay.com/photo/2020/09/16/18/39/icon-5577198_960_720.png"
+        },
+
+        {
+            "name": "Beast Gaming",
+            "address": "789 Main Street Spanish Fork, UT 84660",
+            "phone": "801-123-8899",
+            "website": "BeastGaming.com",
+            "image": "https://cdn.pixabay.com/photo/2021/09/13/08/24/lion-6620633_960_720.png"
+        },
+
+        {
+            "name": "Breathe Spa",
+            "address": "456 Main Street Spanish Fork, UT 84660",
+            "phone": "801-123-1122",
+            "website": "Breathspa.com",
+            "image": "https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png"
+        },
+
+        {
+            "name": "Every Print",
+            "address": "10 Main Street Spanish Fork, UT 84660",
+            "phone": "801-123-1133",
+            "website": "Everyprint.com",
+            "image": "https://cdn.pixabay.com/photo/2014/04/02/10/47/red-304573_960_720.png"
+        },
+
+        {
+            "name": "Ultimate Paintball",
+            "address": "104 E 1000 S Spanish Fork, UT 84660",
+            "phone": "801-456-1122",
+            "website": "Ultimatepb.com",
+            "image": "https://cdn.pixabay.com/photo/2016/09/24/20/11/dab-1692452_960_720.png"
+        },
+
+        {
+            "name": "Tropic Smoothies",
+            "address": "107 E 1200 S Spanish Fork, UT 84660",
+            "phone": "801-456-3344",
+            "website": "Tropicsmoothies.com",
+            "image": "https://cdn.pixabay.com/photo/2016/06/14/02/35/pineapple-1455590_960_720.png"
+        },
+
+        {
+            "name": "Utah Valley Culinary School",
+            "address": "552 E 1000 N Spanish Fork, UT 84660",
+            "phone": "801-456-7788",
+            "website": "UVCulinaryschool.com",
+            "image": "https://cdn.pixabay.com/photo/2020/08/23/06/54/cooking-5510047_960_720.png"
+        },
+
+        {
+            "name": "Centered Yoga",
+            "address": "325 N Main Street Spanish Fork, UT 84660",
+            "phone": "801-456-8998",
+            "website": "Centeredyoga.com",
+            "image": "https://cdn.pixabay.com/photo/2020/08/13/15/45/woman-5485664_960_720.png"
+        }
+    ]
+}
