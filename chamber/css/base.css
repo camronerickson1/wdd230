@@ -359,3 +359,8 @@ form label input {
     width: 50px;
     height: 50px;
 }
+
+#homeJoinBtn {
+    color: white;
+    text-decoration: none;
+}
