@@ -104,3 +104,8 @@
     }
 
 }
+
+/*-------Join-------*/
+form label input {
+    width: 100%;
+}
