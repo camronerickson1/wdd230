@@ -340,3 +340,17 @@ form label input {
 .listView section:nth-child(even) {
     background-color: #e7e7e7;
 }
+
+.directoryButtons {
+    align-self: center;
+}
+
+#cardView {
+    width: 50px;
+    height: 50px;
+}
+
+#listView {
+    width: 50px;
+    height: 50px;
+}
