@@ -259,3 +259,84 @@ form label input {
 #thank-you h1 {
     color: #dd1f28;
 }
+
+/*-------------Directory-----------*/
+.directory {
+    display: flex;
+    flex-direction: column;
+}
+.directory h2 {
+    text-align: center;
+}
+
+/* .cards {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .cards section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border: 1px solid gray;
+} */
+
+/* .cards section img {
+    width: 50%;
+    height: auto;
+    padding-bottom: 10px;
+} */
+
+.cardView {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardView section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.cardView section img {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.listView {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.listView section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.listView section img {
+    display: none;
+}
+
+.listView h2 {
+    color: black;
+}
+
+.listView p {
+    margin: 0;
+}
+
+.listView section:nth-child(even) {
+    background-color: #e7e7e7;
+}

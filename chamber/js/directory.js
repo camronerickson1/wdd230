@@ -29,7 +29,7 @@ fetch(requestURL)
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     image.setAttribute('src', business.image);
     image.setAttribute('alt', `Logo for ${business.name}`);
-    portrait.setAttribute('loading', 'lazy');
+    image.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
     card.appendChild(name);
@@ -41,3 +41,21 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
     }
+
+const listBtn = document.querySelector('#listView');
+const cardBtn = document.querySelector('#cardView');
+
+listBtn.addEventListener("click", ()=> { cards.classList.replace("listView", "cardView")});
+cardBtn.addEventListener("click", ()=> { cards.classList.replace("cardView", "listView")});
+
+cardBtn.addEventListener("click", ()=> { 
+    for(i = 0; i < cards.childElementCount; i++) {
+      cards.childNodes[i].setAttribute("class", "list-view");
+    }
+    });
+  
+  listBtn.addEventListener("click", ()=> { 
+    for(i = 0; i < cards.childElementCount; i++) {
+      cards.childNodes[i].setAttribute("class", ".cards-grid");
+    }
+    });

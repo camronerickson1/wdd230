@@ -97,4 +97,10 @@
         max-width: 275px;
     }
 
+
+    /*---------Directory--------*/
+    .cardView {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
