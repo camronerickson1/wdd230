@@ -364,3 +364,11 @@ form label input {
     color: white;
     text-decoration: none;
 }
+
+
+/*---------Contact---------*/
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
