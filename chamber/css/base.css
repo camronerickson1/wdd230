@@ -137,6 +137,11 @@ h2 {
     font-size: 3vw;
 }
 
+#join-button {
+    text-decoration: none;
+    color: #dd1f28
+}
+
 #spotlights div {
     text-align: center;
 }
