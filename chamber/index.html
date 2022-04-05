@@ -68,7 +68,11 @@
         </div>
         <div id="weather">
             <h2>Weather</h2>
-            <p>Current Temperature: </p><span id="temp">37</span>
+            <p>Current Temperature: <span id="current-temp"></span> &deg;F</p>
+            <p>Current Condition: <span id="current-condition"></span></p>
+            <figure><img src="" alt="" id="weathericon">
+                <figcaption></figcaption>
+            </figure>
             <p>Wind Speed: <span id="windspeed">15</span> mp/h</p>
             <p>Wind Chill: <span id="wind-chill"></span></p>
         </div>
@@ -130,11 +134,12 @@
         <p>chamber@sfc.org</p>
         <a href="https://www.google.com/maps/place/Spanish+Fork,+UT+84660/@40.1114422,-111.6664174,13z/data=!3m1!4b1!4m5!3m4!1s0x874db9d7dc27d89d:0x8b6bd315d9f959d0!8m2!3d40.114955!4d-111.654923">Map</a>
         <div>
-            <p>&copy; <span id="year"></span> <span>Spanish Fork Chamber</span> <span>Camron Erickson</span> <span>WDD 230 Project</span> <span id="last-mod">Last Modification: <span id="last-modified"></span></span></p>
+            <p>&copy; <span id="year"></span> <span>Spanish Fork Chamber</span> <span>Camron Erickson</span> <span>WDD 230 Project</span> <span>Weather data provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></span> <span id="last-mod">Last Modification: <span id="last-modified"></span></span></p>
         </div>
     </footer>
 
     <script src="js/chamber.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
 </body>
 </html>
