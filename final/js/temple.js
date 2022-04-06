@@ -37,7 +37,7 @@ fetch(requestURL)
     let closure = document.createElement('p');
     let like = document.createElement('button');
   
-    // Change the textContent property of the h2 element to contain the prophet's full name
+    // Change the textContent property of the h2 element
     name.textContent = `${temple.name}`;
     address.textContent = `${temple.address}`;
     phone.textContent = `${temple.phone}`;
@@ -47,8 +47,10 @@ fetch(requestURL)
     ordinance.textContent = `${temple.ordinance}`;
     session.textContent = `${temple.session}`;
     closure.textContent = `${temple.closure}`;
-    like.textContent = `${temple.like}`;
+
     like.setAttribute = ('class', 'like');
+    like.textContent = `${temple.like}`;
+    
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     image.setAttribute('src', temple.image);
@@ -73,10 +75,12 @@ fetch(requestURL)
     }
 
 // Like button
-const likeButton = document.querySelector('.like');
-likeButton.addEventListener('click', addLike);
+// const likeButton = document.querySelector('.cards section button');
 
-function addLike() {
-    likeButton.setAttribute('class', 'liked');
-    likeButton.textContent = "Liked!"
-}
+
+// function addLike() {
+//     likeButton.setAttribute('class', 'liked');
+//     likeButton.textContent = "Liked!"
+// }
+
+// likeButton.addEventListener('click', addLike);

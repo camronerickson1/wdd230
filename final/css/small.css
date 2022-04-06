@@ -179,6 +179,9 @@ footer img {
 } */
 
 /*--------Temple----------*/
+.temple h1 {
+    text-align: center;
+}
 .cards {
     display: flex;
     flex-direction: column;
@@ -191,6 +194,8 @@ footer img {
     text-align: center;
     border: 1px solid grey;
     margin: 10px;
+    padding: 10px;
+    background-color: white;
 }
 
 .cards img {

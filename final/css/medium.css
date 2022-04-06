@@ -63,4 +63,10 @@
     #make-reservation-small {
         display: none;
     }
+
+    /*-----Temple------*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
