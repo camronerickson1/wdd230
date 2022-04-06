@@ -35,7 +35,7 @@ fetch(requestURL)
     let ordinance = document.createElement('p');
     let session = document.createElement('p');
     let closure = document.createElement('p');
-    let like = document.createElement('p');
+    let like = document.createElement('button');
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     name.textContent = `${temple.name}`;
@@ -48,6 +48,7 @@ fetch(requestURL)
     session.textContent = `${temple.session}`;
     closure.textContent = `${temple.closure}`;
     like.textContent = `${temple.like}`;
+    like.setAttribute = ('class', 'like');
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     image.setAttribute('src', temple.image);
@@ -70,3 +71,5 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
     }
+
+// Like button
