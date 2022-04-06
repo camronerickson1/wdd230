@@ -1,0 +1,56 @@
+{
+    "temples": [
+
+        {
+            "name": "Provo City Center",
+            "image": "",
+            "address": "50 S University Ave Provo, UT 84601",
+            "phone": "801-343-2700",
+            "email": "Login to ChurchofJesusChrist.org to send the temple an email",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 1 October 2011, Groundbreaking: 12 May 2012, Dedication: 20 March 2016",
+            "ordinance-schedule": "All ordinances are available by appointment only. Please contact the temple.",
+            "session-schedule": "Baptisms: Every hour, Initiatory: Every half-hour, Endowments: Every hour, Sealings: Every 20 minutes",
+            "closure-schedule": "06/20/2022-07/04/2022, 10/01/2022, 11/23/2022(Limited Operations, 11/24/2022, 11/28/2022-12/12/2022, 12/24/2022, 12/31/2022"
+        },
+
+        {
+            "name": "Payson Utah",
+            "image": "",
+            "address": "1494 S 930 W Payson, UT 84651",
+            "phone": "801-754-4949",
+            "email": "Login to ChurchofJesusChrist.org to send the temple an email",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 25 January 2010, Groundbreaking: 8 October 2011, Dedication: 7 June 2015",
+            "ordinance-schedule": "All ordinances are available by appointment only. Please contact the temple.",
+            "session-schedule": "Baptisms: Every half-hour, Initiatory: Every half-hour, Endowments: Every 40 minutes, Sealings: Every hour",
+            "closure-schedule": "04/04/2022-04/11/2022, 10/01/2022, 10/10/2022-10/17/2022, 11/23/2022(Limited Operations), 12/23/2022(Limited Operations, 12/24/2022, 12/31/2022"
+        },
+
+        {
+            "name": "Portland Oregon",
+            "image": "",
+            "address": "13600 Kruse Oaks Blvd Lake Oswego, OR 97035",
+            "phone": "503-639-7066",
+            "email": "Login to ChurchofJesusChrist.org to send the temple an email",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 7 April 1984, Groundbreaking: 20 September 1986, Dedication: 19 August 1989",
+            "ordinance-schedule": "All ordinances are available by appointment only. Please contact the temple.",
+            "session-schedule": "Baptisms: Every hour 8-12 and 4-7, Initiatory: Every half-hour from 8-12 and 4-8, Endowment: Every hour 8-11 and 4-7, Sealings: 10 AM, 11 AM, 6 PM, and 7 PM",
+            "closure-schedule": "07/04/2022, 07/18/2022-08/15/2022, 10/01/2022, 11/23/2022(Limited Operations), 11/24/2022, 12/24/2022, 12/25/2022, 12/31/2022"
+        },
+
+        {
+            "name": "Orlando Florida",
+            "image": "",
+            "address": "9000 Windy Ridge Rd Windermere, FL 34786",
+            "phone": "407-876-0022",
+            "email": "Login to ChurchofJesusChrist.org to send the temple an email",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 6 April 1991, Groundbreaking: 20 June 1992, Dedication: 9 October 1994",
+            "ordinance-schedule": "All ordinances are available by appointment only. Please contact the temple.",
+            "session-schedule": "Proxy sessions vary. Contact the temple for available times.",
+            "closure-schedule": "08/15/2022-12/12/2022, 12/24/2022, 12/31/2022"
+        }
+    ]
+}
