@@ -73,3 +73,10 @@ fetch(requestURL)
     }
 
 // Like button
+const likeButton = document.querySelector('.like');
+likeButton.addEventListener('click', addLike);
+
+function addLike() {
+    likeButton.setAttribute('class', 'liked');
+    likeButton.textContent = "Liked!"
+}
