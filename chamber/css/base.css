@@ -159,6 +159,10 @@ h2 {
     display: none;
 }
 
+#weather {
+    text-align: center;
+}
+
 footer {
     text-align: center;
 }
