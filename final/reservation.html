@@ -36,6 +36,7 @@
     <main class="reservation">
         <h2>Reservation</h2>
         <p>Send us the info below to book your stay</p>
+        <div class="formDiv">
         <form method="get" action="thankyou.html">
             <label>Full Name* <input type="text" name="name" required></label>
             <label>Email* <input type="email" name="email" required></label>
@@ -51,9 +52,12 @@
                 <option value="king">Standard 1 King</option>
                 <option value="suite">Suite</option>
             </select>
-            <label>Special Accommodations <input type="text" name="accommodations"></label>
+            <label>Special Accommodations</label>
+            <textarea name="accommodations"></textarea>
+            <input id="resbtn" type="submit" value="Make Reservation">
 
         </form>
+        </div>
     </main>
 
     <footer>
