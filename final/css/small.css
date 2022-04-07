@@ -272,3 +272,17 @@ form select, textarea {
     background-color: white;
     border: 1px solid #83C5BE;
 }
+
+/*---------Receptions-------*/
+.weddings h3 {
+    text-align: center;
+}
+
+.weddings img {
+    width: 100%;
+    box-shadow: 0 0 5px #58585a;
+}
+
+#receptionGallery {
+    padding: 10px;
+}
