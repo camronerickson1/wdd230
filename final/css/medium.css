@@ -31,6 +31,10 @@
         font-size: 3vw;
     }
 
+    #home-main-large form {
+        margin-top: 50px;
+    }
+
     #home-main-large2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
