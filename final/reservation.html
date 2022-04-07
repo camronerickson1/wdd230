@@ -46,14 +46,14 @@
             <label>Check-in Date* <input type="date" name="date" required></label>
             <label>Check-out Date* <input type="date" name="date2" required></label>
             <label>Number of Rooms* <input type="number" name="roomNum" required></label>
-            <label>Type of Room</label>
+            <label for="roomNum">Type of Room</label>
             <select id="roomNum" name="roomNum">
                 <option value="queen">Standard 2 Queens</option>
                 <option value="king">Standard 1 King</option>
                 <option value="suite">Suite</option>
             </select>
-            <label>Special Accommodations</label>
-            <textarea name="accommodations"></textarea>
+            <label for="accommodations-text">Special Accommodations</label>
+            <textarea id="accommodations-text" name="accommodations"></textarea>
             <input id="resbtn" type="submit" value="Make Reservation">
 
         </form>
