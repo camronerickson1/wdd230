@@ -237,3 +237,8 @@ form select, textarea {
     border: 2px solid #83C5BE;
     border-radius: 5px;
 }
+
+#thankYou {
+    text-align: center;
+    margin-bottom: 200px;
+}
