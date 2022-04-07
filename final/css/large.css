@@ -94,4 +94,9 @@
         align-self: center;
         grid-row: 2/3;
     }
+
+    /*-------Services---------*/
+    #serviceLists {
+        display: flex;
+    }
 }

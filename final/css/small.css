@@ -9,7 +9,7 @@ body {
     float: none;
 }
 
-h1, h2, nav {
+h1, h2, h3, nav {
     font-family: 'EB Garamond', serif;
 }
 
@@ -241,4 +241,34 @@ form select, textarea {
 #thankYou {
     text-align: center;
     margin-bottom: 200px;
+}
+
+
+/*------Services--------*/
+#services {
+    text-align: center;
+}
+
+#special ul {
+    text-align: left;
+    line-height: 200%;
+}
+
+#free ul {
+    text-align: left;
+    line-height: 200%;
+}
+
+#moreInfo img {
+    width: 100%;
+    box-shadow: 0 0 5px #58585a;
+}
+
+.infoLink {
+    text-decoration: none;
+}
+
+#weddingInfo:hover, #suiteInfo:hover {
+    background-color: white;
+    border: 1px solid #83C5BE;
 }
