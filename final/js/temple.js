@@ -1,13 +1,13 @@
-function toggleMenu() {
-    document.getElementById("main-nav").classList.toggle("open");
-    document.getElementById("hamburger-btn").classList.toggle("open");
-}
+// function toggleMenu() {
+//     document.getElementById("main-nav").classList.toggle("open");
+//     document.getElementById("hamburger-btn").classList.toggle("open");
+// }
 
-const x = document.getElementById("hamburger-btn");
-x.onclick = toggleMenu;
+// const x = document.getElementById("hamburger-btn");
+// x.onclick = toggleMenu;
 
-let update = document.lastModified;
-document.getElementById("last-modified").innerHTML = update;
+// let update = document.lastModified;
+// document.getElementById("last-modified").innerHTML = update;
 
 const requestURL = 'https://camronerickson1.github.io/wdd230/final/data/data.json';
 const cards = document.querySelector('.cards');
