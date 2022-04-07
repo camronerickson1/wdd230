@@ -102,4 +102,9 @@
 
     /*---------Reception-------*/
     
+    /*------Suites------*/
+    #suites p {
+        font-size: 1.75vw;
+        text-align: center;
+    }
 }

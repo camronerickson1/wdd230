@@ -286,3 +286,21 @@ form select, textarea {
 #receptionGallery {
     padding: 10px;
 }
+
+/*------Suites-------*/
+#suites img {
+    width: 100%;
+    box-shadow: 0 0 5px #58585a;
+}
+
+#suites p {
+    line-height: 200%;
+}
+
+#contactbtn {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid #83C5BE;
+    border-radius: 10px;
+}

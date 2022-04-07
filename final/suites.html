@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suite Info</title>
+    <meta name="description" content="Suite info page for the temple inn & suites final project by Camron Erickson for WDD 230 at Brigham Young University Idaho.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo of hands together in prayer">
+        <h1>Temple Inn & Suites</h1>
+        <nav>
+            <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+            <ul id="main-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="temple.html">Temple</a>
+                </li>
+                <li>
+                    <a href="reservation.html">Reservation</a>
+                </li>
+                <li class="active">
+                    <a href="services.html">Services</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="suites">
+        <h2>Suites</h2>
+        <div id="suiteImgs">
+            <img src="images/hotel-queen.jpg" alt="hotel room with 2 queen beds">
+            <p>Our queen rooms are perfect for families or large groups. These rooms include 2 queen size beds and 1 fold-out couch</p>
+            <p>Our king rooms offer quality sleep on a premium king size mattress. These rooms include a fold-out couch as well</p>
+            <img src="images/hotel-king.jpg" alt="hotel room with a king size bed">
+            <img src="images/hotel-suite.jpg" alt="modern dining room">
+            <p>Let us create your "home away from home" with our beautiful suites. These include 2 bedrooms, a full bathroom, living room, dining room, full kitchen, high-end furniture and fixtures</p>
+        </div>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <form action="thankyou.html" method="get">
+                <label>Name* <input type="text" name="name" required></label>
+                <label>Email* <input type="email" name="email" required></label>
+                <label>Message* <input type="text" name="message" required></label>
+                <input id="contactbtn" type="submit" value="Send Message">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <img src="images/logo-small2.png" alt="logo of hands together in prayer">
+        <div id="footer-info">
+            <h3>Temple Inn & Suites</h3>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>contact@templeinn.com</p>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814/@38.9823953,-77.0969506,18z/data=!4m5!3m4!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318">Map</a>
+            <p><span>Camron Erickson</span> <span>WDD 230 Project</span> <span id="last-mod">Last Modification: <span id="last-modified"></span></span></p>
+        </div>
+    </footer>
+
+    <script src="js/temple.js"></script>
+    <script src="js/weatherapi.js"></script>
+    
+</body>
+</html>
