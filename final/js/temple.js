@@ -1,14 +1,3 @@
-// function toggleMenu() {
-//     document.getElementById("main-nav").classList.toggle("open");
-//     document.getElementById("hamburger-btn").classList.toggle("open");
-// }
-
-// const x = document.getElementById("hamburger-btn");
-// x.onclick = toggleMenu;
-
-// let update = document.lastModified;
-// document.getElementById("last-modified").innerHTML = update;
-
 const requestURL = 'https://camronerickson1.github.io/wdd230/final/data/data.json';
 const cards = document.querySelector('.cards');
 
@@ -17,7 +6,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
     const temples = jsonObject['temples'];
     temples.forEach(displayTemple);
   });
@@ -74,13 +62,5 @@ fetch(requestURL)
     cards.appendChild(card);
     }
 
-// Like button
-// const likeButton = document.querySelector('.cards section button');
 
-
-// function addLike() {
-//     likeButton.setAttribute('class', 'liked');
-//     likeButton.textContent = "Liked!"
-// }
-
-// likeButton.addEventListener('click', addLike);
+//Could not get the like button to work.
